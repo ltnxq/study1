@@ -66,7 +66,7 @@ public class TestPool {
             this.taskQueue = new BlockingQueue<Runnable>(capacity);
             this.rejectPolicy = rejectPolicy;
         }
-        //
+        //执行任务方法
         public void execue(Runnable task){
             synchronized (workers){
                 //当任务数量没有超过核心数，直接交给woker对象执行
@@ -91,11 +91,9 @@ public class TestPool {
 
         class Worker extends Thread{
            private Runnable task;
-
-            public Worker(Runnable task) {
+           public Worker(Runnable task) {
                 this.task = task;
             }
-
             @Override
             public void run(){
                 //1、如果传递过来的task不为空，直接执行
@@ -117,8 +115,6 @@ public class TestPool {
                     log.debug("work被移除{}",this);
                     workers.remove(this);
                 }
-
-
             }
 
         }
@@ -130,7 +126,7 @@ public class TestPool {
     class BlockingQueue<T> {
         //创建一个链表,双向链表
         private Deque<T> queue = new ArrayDeque<>();
-
+        //定义一个锁对象
         private ReentrantLock lock = new ReentrantLock();
         //生产者条件变量
         private Condition fullWaitSet = lock.newCondition();
@@ -149,7 +145,6 @@ public class TestPool {
             try {
                 long nanos = unit.toNanos(timeout);
                 while (queue.isEmpty()){
-
                     try {
                         if(nanos<=0)
                             return null;
@@ -237,7 +232,7 @@ public class TestPool {
                 lock.unlock();
             }
         }
-
+        //含有拒绝模式的添加
         public void tryPut(RejectPolicy<T> rejectPolicy, T task) {
             lock.lock();
             try {
