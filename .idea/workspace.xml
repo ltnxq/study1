@@ -6,7 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e870584d-7208-4992-8e0d-09733a2c2014" name="Default Changelist" comment="" />
+    <list default="true" id="e870584d-7208-4992-8e0d-09733a2c2014" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/htsc/zyz/listner/jvm/Helloword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/htsc/zyz/listner/jvm/TestHeapUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/htsc/zyz/listner/jvm/TestHeapUsage1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/htsc/zyz/listner/jvm/TestOutMermory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/htsc/zyz/listner/jvm/TestSoftReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/htsc/zyz/listner/jvm/TestStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/htsc/zyz/listner/jvm/TestStackOverFlower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/htsc/zyz/listner/jvm/TestStringTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/htsc/zyz/listner/jvm/TestVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,12 +33,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\software\java\rj\apache-maven-3.5.2-bin\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
@@ -41,30 +63,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20423183" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java\pro\study1\src\main\resources" />
-      <recent name="D:\java\pro\study1\web" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java\pro\study1\src\main\java\cn\htsc\zyz\listner\mapper" />
       <recent name="D:\java\pro\study1\src\main\resources\cn\htsc\zyz\listner\mapper" />
       <recent name="D:\java\pro\study1\src\main\resources\cn.htsc.zyz.listner.mapper" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.htsc.zyz.listner.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\pro\study1\src\main\resources" />
+      <recent name="D:\java\pro\study1\web" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.htsc.zyz.listner.test.Test" />
+  <component name="RunManager" selected="Application.TestVM">
+    <configuration name="Helloword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.htsc.zyz.listner.jvm.Helloword" />
       <module name="study1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.htsc.zyz.listner.test.*" />
+          <option name="PATTERN" value="cn.htsc.zyz.listner.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.htsc.zyz.listner.threadPool.TestPool" />
+    <configuration name="TestHeapUsage1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.htsc.zyz.listner.jvm.TestHeapUsage1" />
       <module name="study1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.htsc.zyz.listner.threadPool.*" />
+          <option name="PATTERN" value="cn.htsc.zyz.listner.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.htsc.zyz.listner.thread.interrupt.TestReentrantLock" />
+    <configuration name="TestSoftReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.htsc.zyz.listner.jvm.TestSoftReference" />
       <module name="study1" />
+      <option name="VM_PARAMETERS" value="-Xmx20m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.htsc.zyz.listner.thread.interrupt.*" />
+          <option name="PATTERN" value="cn.htsc.zyz.listner.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReentrantLock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.htsc.zyz.listner.thread.interrupt.TestReentrantLock1" />
+    <configuration name="TestStringTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.htsc.zyz.listner.jvm.TestStringTable" />
       <module name="study1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.htsc.zyz.listner.thread.interrupt.*" />
+          <option name="PATTERN" value="cn.htsc.zyz.listner.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReentrantLock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.htsc.zyz.listner.thread.interrupt.TestReentrantLock2" />
+    <configuration name="TestVM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.htsc.zyz.listner.jvm.TestVM" />
       <module name="study1" />
+      <option name="VM_PARAMETERS" value="-Xms20M -Xmx20M -Xmn10M -XX:+UseSerialGC -XX:+PrintGCDetails -verbose:gc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.htsc.zyz.listner.thread.interrupt.*" />
+          <option name="PATTERN" value="cn.htsc.zyz.listner.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,13 +224,21 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TestHeapUsage1" />
+      <item itemvalue="Application.Helloword" />
+      <item itemvalue="Application.TestStringTable" />
+      <item itemvalue="Application.TestSoftReference" />
+      <item itemvalue="Application.TestVM" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestPool" />
-        <item itemvalue="Application.TestReentrantLock2" />
-        <item itemvalue="Application.TestReentrantLock1" />
-        <item itemvalue="Application.TestReentrantLock" />
+        <item itemvalue="Application.TestVM" />
+        <item itemvalue="Application.TestSoftReference" />
+        <item itemvalue="Application.TestStringTable" />
+        <item itemvalue="Application.Helloword" />
+        <item itemvalue="Application.TestHeapUsage1" />
       </list>
     </recent_temporary>
   </component>
@@ -262,64 +297,101 @@
       <workItem from="1587975642305" duration="4244000" />
       <workItem from="1588076398430" duration="1206000" />
       <workItem from="1588127739595" duration="923000" />
+      <workItem from="1588242901505" duration="347000" />
+      <workItem from="1588405244459" duration="274000" />
+      <workItem from="1588405536898" duration="4030000" />
+      <workItem from="1588471671036" duration="3550000" />
+      <workItem from="1588504929166" duration="1246000" />
+      <workItem from="1588995169999" duration="8463000" />
+      <workItem from="1589083062004" duration="5402000" />
     </task>
+    <task id="LOCAL-00001" summary="增加线程池的实现方法">
+      <created>1588503712635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588503712635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加线程池的实现方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加线程池的实现方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="470" y="109" key="#Project_Structure" timestamp="1585137100890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="470" y="109" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1585137100890" />
-    <state x="414" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585110221769">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="194" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589103061263">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state x="194" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1589103061263" />
     <state x="414" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585110221769" />
     <state x="721" y="167" key="#com.intellij.ide.util.MemberChooser" timestamp="1587990053920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="167" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587990053920" />
+    <state x="488" y="270" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588243172524">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="488" y="270" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.760@0.0.1280.760" timestamp="1588243172524" />
     <state x="452" y="94" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1584959409537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="94" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1584959409537" />
-    <state x="690" y="198" key="FileChooserDialogImpl" timestamp="1585113520548">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1589112985957">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1589112985957" />
+    <state x="460" y="145" key="FileChooserDialogImpl" timestamp="1588503838091">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="460" y="145" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1588503838091" />
     <state x="690" y="198" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585113520548" />
-    <state width="1716" height="498" key="GridCell.Tab.0.bottom" timestamp="1587991224335">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1203" height="365" key="GridCell.Tab.0.bottom" timestamp="1589112963379">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state width="1203" height="365" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589112963379" />
     <state width="1716" height="498" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587991224335" />
-    <state width="1716" height="498" key="GridCell.Tab.0.center" timestamp="1587991224335">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1203" height="365" key="GridCell.Tab.0.center" timestamp="1589112963379">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state width="1203" height="365" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589112963379" />
     <state width="1716" height="498" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587991224335" />
-    <state width="1716" height="498" key="GridCell.Tab.0.left" timestamp="1587991224335">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1203" height="365" key="GridCell.Tab.0.left" timestamp="1589112963379">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state width="1203" height="365" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589112963379" />
     <state width="1716" height="498" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587991224335" />
-    <state width="1716" height="498" key="GridCell.Tab.0.right" timestamp="1587991224335">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1203" height="365" key="GridCell.Tab.0.right" timestamp="1589112963379">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state width="1203" height="365" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589112963379" />
     <state width="1716" height="498" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587991224335" />
-    <state width="1716" height="498" key="GridCell.Tab.1.bottom" timestamp="1587991224335">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1203" height="216" key="GridCell.Tab.1.bottom" timestamp="1589029247995">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state width="1203" height="216" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589029247995" />
     <state width="1716" height="498" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587991224335" />
-    <state width="1716" height="498" key="GridCell.Tab.1.center" timestamp="1587991224335">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1203" height="216" key="GridCell.Tab.1.center" timestamp="1589029247995">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state width="1203" height="216" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1589029247995" />
     <state width="1716" height="498" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587991224335" />
-    <state width="1716" height="498" key="GridCell.Tab.1.left" timestamp="1587991224335">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1203" height="216" key="GridCell.Tab.1.left" timestamp="1589029247995">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state width="1203" height="216" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1589029247995" />
     <state width="1716" height="498" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587991224335" />
-    <state width="1716" height="498" key="GridCell.Tab.1.right" timestamp="1587991224335">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1203" height="216" key="GridCell.Tab.1.right" timestamp="1589029247995">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state width="1203" height="216" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1589029247995" />
     <state width="1716" height="498" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587991224335" />
     <state width="1390" height="357" key="GridCell.Tab.2.bottom" timestamp="1585136549122">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -353,13 +425,27 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1390" height="357" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585136549122" />
-    <state x="312" y="0" key="SettingsEditor" timestamp="1585137611831">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="208" y="0" key="SettingsEditor" timestamp="1588405523041">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state x="208" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1588405523041" />
     <state x="312" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585137611831" />
-    <state x="161" y="0" key="new project wizard" timestamp="1587035645702">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="234" y="114" key="Vcs.Push.Dialog.v2" timestamp="1589112996755">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state x="234" y="114" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1589112996755" />
+    <state x="325" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1588242905757">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="325" y="205" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1588242905757" />
+    <state x="370" y="172" key="git4idea.merge.GitPullDialog" timestamp="1588503628882">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="370" y="172" key="git4idea.merge.GitPullDialog/0.0.1280.760@0.0.1280.760" timestamp="1588503628882" />
+    <state x="14" y="0" key="new project wizard" timestamp="1588503887751">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="14" y="0" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1588503887751" />
     <state x="161" y="0" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587035645702" />
     <state x="557" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1585879957675">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -413,6 +499,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/cn/htsc/zyz/listner/test/Test.java</url>
           <line>17</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/htsc/zyz/listner/threadPool/TestSchedule.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/htsc/zyz/listner/jvm/TestStack.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
